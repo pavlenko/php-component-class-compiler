@@ -1,0 +1,38 @@
+{
+  "config": {
+    "sort-packages": true
+  },
+  "name": "pe/component-class-compiler",
+  "description": "Component allows to compile multiple classes into one big string which can be dumped to file",
+  "keywords": ["class compiler"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavlenko Eugeniy",
+      "email": "pavlenko.obs@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "nikic/php-parser": "^2.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "suggest": {},
+  "autoload": {
+    "psr-4": {
+      "PE\\Component\\ClassCompiler\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PETest\\Component\\ClassCompiler\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
